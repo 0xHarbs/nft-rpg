@@ -1,0 +1,27 @@
+.adminbar {
+	height: 70%;
+}
+
+.adminbar__container {
+	border: solid 1px #3E4859;
+	border-radius: 4px;
+	margin: 20px 10px 10px 10px;
+	height: 95%;
+	background-color: #212330;
+}
+
+.adminbar__buttonContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	cursor: pointer;
+	border-radius: 2px;
+	margin: 10px 10px;
+	padding: 10px 25px 10px 25px;
+	max-width: 120px;
+}
+
+.adminbar__buttonContainer:hover {
+	background-color: #F7DC5D;
+}

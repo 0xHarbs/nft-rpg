@@ -1,0 +1,10 @@
+.cardbar {
+	flex: 0.3;
+	height: 80%;
+}
+
+.cardbar__container {
+	border-radius: 4px;
+	margin: 20px 5px;
+	height: 95%;
+}

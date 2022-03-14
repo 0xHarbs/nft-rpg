@@ -1,0 +1,37 @@
+.cover {
+	color: #fff;
+	padding: 200px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	height: 600px;
+	object-fit: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(BGCover.jpg);
+}
+
+.text__container {
+	margin-top: 10px;
+}
+
+.text__container > p {
+	margin: 16px auto 0px auto;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	width: 80%;
+}
+
+.text__container > h1 {
+	font-family: 'Belwe';
+	font-size: 44px;
+	font-weight: bold;
+	line-height: 54px;
+	letter-spacing: 0.5px;
+}
+
+.cover__buttonContainer {
+	margin: 24px auto 0px auto;
+}

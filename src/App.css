@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.app__postsRight {
+  margin-left: 20px;
+}

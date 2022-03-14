@@ -1,0 +1,171 @@
+.opponent {
+	height: 350px;
+	display: flex;
+	justify-content: center;
+	background-image: url(https://images.unsplash.com/photo-1570475754561-4effe71c5084?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+}
+
+.opponent__container {
+	padding: 20px 40px;
+}
+
+.opponent__textInfo {
+	max-width: 30%;
+	min-width: 350px;
+	background-color: #fff;
+	padding: 10px 15px;
+	border: 1px solid lightgray;
+	border-top: 3px solid darkgray;
+	border-bottom: 3px solid darkgray;
+	border-radius: 6px;
+}
+
+.opponent__textTop {
+	display: flex;
+	align-items: center;
+}
+
+.opponent__textLeft{
+	margin-right: auto;
+}
+
+.opponent__textRight {
+	display: flex;
+	align-items: center;
+}
+
+.opponent__hp {
+	margin: 5px 0px;
+	height: 5px;
+	width: 100%;
+	border: 1px solid lightgray;
+	border-radius: 8px;
+	display: flex;
+}
+
+.opponent__hpBar {
+	background-color: darkgoldenrod;
+	width: 100%;
+	height: 4px;
+	transition: width;
+	transition-delay: 2s;
+}
+
+.opponent__mana {
+	margin: 5px 0px;
+	height: 5px;
+	width: 100%;
+	border: 1px solid lightgray;
+	border-radius: 8px;
+	display: flex;
+}
+
+.opponent__manaBar {
+	background-color: royalblue;
+	width: 100%;
+	height: 4px;
+}
+
+.opponent__data > p {
+	font-size: 14px;
+}
+
+.opponent__imageContainer {
+	padding: 20px 10px;
+	margin-left: 60px;
+	justify-content: right;
+	position: relative;
+}
+
+.opponent__effects {
+	margin: 10px 0px;
+	color: #fff;
+	display: flex;
+}
+
+.opponent__effectBoxes {
+	display: flex;
+	font-size: 12px;
+	background-color: #15151B;
+	border-radius: 100px;
+	align-items: center;
+	padding: 4px 4px;
+	margin: 0px 4px 0px 2px;
+}
+
+.opponent__counter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 12px;
+	border-radius: 100px;
+	padding: 0px 10px;
+	margin-right: 12px;
+	color: #15151B;
+}
+
+.opponent__attackInfo {
+	padding: 10px;
+	margin: 0px;
+	max-width: 360px;
+	border: solid 1px #3E4859;
+	border-radius: 8px;
+	background-color: #212330;
+	color: #fff;
+}
+
+.opponent__effectBoxes > h3 {
+	background-color: #F7DC5D;
+	border-radius: 100px;
+	padding: 6px 4px;
+	font-size: 10px;
+	margin-top: 1px;
+	color: #15151B;
+}
+
+.opponent__effectBoxes > p {
+	font-size: 12px;
+	border-radius: 100px;
+	padding: 4px 4px 2px 4px;
+	font-size: 10px;
+	margin-top: 1px;
+	color: #F7DC5D;
+}
+
+.attack__impact {
+	margin-top: 20px;
+	text-align: center;
+	color: red;
+}
+
+img {
+	max-width: 250px;
+	max-height: 225px;
+	border: 1px solid lightgray;
+	border-radius: 8px;
+}
+
+.wobble {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}

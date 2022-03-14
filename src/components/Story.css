@@ -1,0 +1,39 @@
+.story {
+	padding: 80px 0px 40px 0px;
+	text-align: center;
+	height: 800px;
+	background-image: url('BGStory2.jpg');
+	background-size: cover;
+	color: #fff;
+}
+
+.contentCardInfo > h2 {
+	font-family: 'Belwe';
+	font-weight: bold;
+}
+
+.story__container {
+	align-items: center;
+	justify-content: center;
+	margin: 40px 0px;
+}
+
+.story__bodyContainer {
+	margin: 15px auto 0px auto;
+	width: 60%;
+}
+
+.story__actionContainer {
+	margin-top: 120px;
+}
+
+.story__actionContainer > h1 {
+	font-family: 'Belwe';
+	font-size: 42px;
+	margin-bottom: 20px;
+}
+
+.story__bodyContainer > p {
+	font-size: 18px;
+	line-height: 25px;
+}

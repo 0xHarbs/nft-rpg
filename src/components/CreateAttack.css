@@ -1,0 +1,41 @@
+.createattack__container{
+	border: solid 1px #3E4859;
+	border-radius: 6px;
+	width: 90%;
+	margin: 0px 10px 10px 5px;
+	background-color: #212330;
+}
+
+.createattack__contentContainer {
+	padding: 24px 8px 24px 24px;
+	color: #fff;
+}
+
+.createattack__title {
+	font-size: 24px;
+}
+
+.createattack__inputSection {
+	margin-top: 8px;
+	align-items: baseline;
+}
+
+.createattack__inputSection > input {
+	margin: 12px 16px 4px 0px;
+	padding: 8px 8px;
+	border-radius: 4px;
+	border: none;
+	outline: none;
+}
+
+.createattack__inputSection > textarea {
+	margin-top: 12px;
+	padding: 8px 5px;
+	border-radius: 4px;
+	border: none;
+	outline: none;
+}
+
+.createattack__contentContainer > button {
+	margin-top: 16px;
+}

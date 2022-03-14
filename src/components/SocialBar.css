@@ -1,0 +1,19 @@
+.socialbar{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1A1A22;
+  height: 140px;
+  text-align: center;
+}
+
+.social__icons {
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.icons {
+  margin-right: 20px;
+  color: #fff;
+}

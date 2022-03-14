@@ -1,0 +1,40 @@
+.sidebar {
+	flex: 0.2;
+	height: 80%;
+}
+
+.sidebar__container {
+	border: solid 1px #3E4859;
+	border-radius: 4px;
+	margin: 20px 5px 10px 10px;
+	height: 95%;
+	background-color: #212330;
+
+}
+
+.button__container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 20px auto 10px 10px;
+	padding: 10px 25px 10px 25px;
+	border: none;
+	width: 90%;
+	cursor: pointer;
+	border-radius: 2px;
+}
+
+.button__link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 20px 5px 10px 10px;
+	padding: 10px 25px 10px 25px;
+	border: solid 1px #3E4859;
+	background-color: red;
+	width: 90%;
+	cursor: pointer;
+	border-radius: 4px;
+	color: #ffff;
+	text-decoration: none;
+}

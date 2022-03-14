@@ -1,0 +1,197 @@
+.selectfighter__container{
+	margin: 0px 15px 0px 15px;
+	max-height: 700px;
+	max-width: 200px;
+}
+
+.selectfighter__image > img {
+	border: solid 1px #3E4859;
+	height: 100%;
+	width: 100%;
+	min-width: 180px;
+}
+
+.selectfighter__infoContainer {
+	border: solid 1px #3E4859;
+	color: #fff;
+}
+
+.select__buttonContainer {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.select__button {
+	cursor: pointer;
+	margin: 10px 0px;
+	padding: 10px 30px;
+	text-align: center;
+	border-radius: 8px;
+	border: none;
+	background-color: #F8DD60;
+	font-weight: bold;
+}
+
+.select__button:hover {
+	background-color: transparent;
+	border: solid 1px #F8DD60;
+	color: #fff;
+}
+
+.selectfighter__basicInfo {
+	margin-top: 1px;
+	background-color: #fff;
+	padding: 10px 0px 10px 10px;
+	background-color: #212330;
+}
+
+.selectfighter__basicInfo > p {
+	font-size: 13px;
+	padding: 4px 0px 0px 3px;
+}
+
+.selectfighter__description {
+	border-top: solid 1px #3E4859;
+	margin-top: 1px;
+	background-color: #fff;
+	padding: 10px;
+	background-color: #212330;
+
+}
+
+.selectfighter__description > p {
+	font-size: 12px;
+}
+
+.selectfighter__stats {
+	border-top: solid 1px #3E4859;
+	margin-top: 1px;
+	background-color: #fff;
+	padding: 10px;
+	font-size: 14px;
+	background-color: #212330;
+	display: flex;
+	justify-content: center;
+}
+
+.selectfighter__stats > p {
+	margin-bottom: 4px;
+}
+
+
+.selectfighter__attackStats {
+	display: flex;
+	background-color: #15151B;
+	border-radius: 100px;
+	margin-left: 5px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 4px 3px;
+}
+
+.selectfighter__manaStats {
+	display: flex;
+	background-color: #15151B;
+	border-radius: 100px;
+	margin-left: 5px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 4px 3px;
+}
+
+.selectfighter__speedStats {
+	display: flex;
+	background-color: #15151B;
+	border-radius: 100px;
+	margin-left: 5px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 4px 3px;
+}
+
+.selectfighter__regenStats {
+	display: flex;
+	background-color: #15151B;
+	border-radius: 100px;
+	margin-left: 5px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 4px 3px;
+}
+
+.selectfighter__attackStats > h3 {
+	background-color: #F7DC5D;
+	border-radius: 100px;
+	padding: 4px;
+	font-size: 10px;
+	margin-top: 1px;
+	color: #15151B;
+}
+
+.selectfighter__attackStats > p {
+	font-size: 10px;
+	border-radius: 100px;
+	padding: 4px 4px 2px 4px;
+	font-size: 10px;
+	margin-top: 1px;
+	color: #F7DC5D;
+}
+
+.selectfighter__speedStats > h3 {
+	background-color: #BDFF9E;
+	border-radius: 100px;
+	padding: 4px;
+	font-size: 10px;
+	margin-top: 1px;
+	color: #15151B;
+}
+
+.selectfighter__speedStats > p {
+	font-size: 10px;
+	border-radius: 100px;
+	padding: 8px 4px 2px 4px;
+	font-size: 10px;
+	margin-top: 1px;
+	color: #F7DC5D;
+}
+
+.selectfighter__manaStats > h3 {
+	background-color: #B4E3ED;
+	border-radius: 100px;
+	padding: 4px;
+	font-size: 10px;
+	margin-top: 1px;
+	color: #15151B;
+}
+
+.selectfighter__manaStats > p {
+	font-size: 10px;
+	border-radius: 100px;
+	padding: 4px 4px 2px 4px;
+	font-size: 10px;
+	margin-top: 1px;
+	color: #F7DC5D;
+}
+
+.selectfighter__regenStats > h3 {
+	background-color: #FFA061;
+	border-radius: 100px;
+	padding: 4px;
+	font-size: 10px;
+	margin-top: 1px;
+	color: #15151B;
+}
+
+.selectfighter__regenStats > p {
+	font-size: 10px;
+	border-radius: 100px;
+	padding: 4px 4px 2px 4px;
+	font-size: 10px;
+	margin-top: 1px;
+	color: #F7DC5D;
+}

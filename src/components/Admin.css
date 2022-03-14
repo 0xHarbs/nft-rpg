@@ -1,0 +1,12 @@
+.admin__page {
+	display: flex;
+	background-color: #1A1A22;
+	justify-content: center;
+}
+
+.admin__main {
+	display: flex;
+	flex-wrap: wrap;
+	height: 1200px;
+	background-color: #1A1A22;
+}

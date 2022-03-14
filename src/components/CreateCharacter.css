@@ -1,0 +1,37 @@
+.createcharacter {
+	flex: 0.9;
+}
+
+.createcharacter__container{
+	border: solid 1px #3E4859;
+	border-radius: 6px;
+	width: 100%;
+	margin: 0px 10px 10px 5px;
+	background-color: #212330;
+}
+
+.createcharacter__contentContainer {
+	padding: 24px 8px 24px 24px;
+	color: #fff;
+}
+
+.createcharacter__title {
+	font-size: 24px;
+}
+
+.createcharacter__inputSection {
+	margin-top: 8px;
+	align-items: baseline;
+}
+
+.createcharacter__inputSection > input {
+	margin: 12px 16px 4px 0px;
+	padding: 8px 8px;
+	border-radius: 4px;
+	border: none;
+	outline: none;
+}
+
+.createcharacter__inputSection > button {
+	margin-top: 16px;
+}

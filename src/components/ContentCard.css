@@ -1,0 +1,38 @@
+.contentCard {
+	width:  300px;
+	margin: 0px 10px 0px 10px;
+	border-radius: 8px;
+}
+
+.contentCard__imgContainer {
+	height: 200px;
+	object-fit: cover;
+}
+
+.card__img {
+	width: 100%;
+	object-fit: cover;
+	border: none;
+	border-radius: 0px;
+	margin:  0px;
+	padding: 0px;
+}
+
+.contentCardInfo {
+	padding: 10px 10px 30px 10px;
+	background-color: #212330;
+	color: #fff;
+}
+
+.contentCardInfo > h2 {
+	line-height: 40px;
+}
+
+.contentCardInfo > p {
+	line-height: 28px;
+	margin: 8px 0px;
+}
+
+.contentCardInfo > h4 {
+	color: blue;
+}

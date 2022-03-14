@@ -1,0 +1,80 @@
+.attackcard{
+}
+
+.attackcard__container{
+	border: solid 1px #3E4859;
+	border-radius: 6px;
+	width: 220px;
+	margin: 5px 0px 10px 5px;
+	background-color: #212330;
+}
+
+.attackcard__title {
+	padding: 8px 0px 8px 0px;
+	text-align: center;
+	color: #fff;
+}
+
+.attackcard__image {
+	width: 100%;
+	height: 100%;
+}
+
+.attackcard__info {
+	border-radius: 2px;
+	margin:  0px 4px 4px 4px;
+	color: #fff;
+}
+
+.attackcard__description {
+	margin-top: 1px;
+	height: 80px;
+	padding: 5px 5px 5px 5px;
+}
+
+.attackcard__type {
+	border-radius: 10px;
+	border:  none;
+	background-color: #EBCB38;
+}
+
+.attackcard__stats {
+	padding:  4px 4px 2px 0px;
+	font-size: 14px;
+	text-align: right;
+}
+
+.attackcard__title > h3 {
+	font-size: 16px;
+}
+
+.attackcard__type > p {
+	color: #333;
+	font-size: 12px;
+	padding: 2px 0px 2px 5px;
+}
+
+.attackcard__description > p {
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.attackcard__stats > p {
+	font-size: 10px;
+	margin: 6px 4px 0px 0px;
+}
+
+.attackcard__image > img {
+	height: 100%;
+	width: 100%;
+	border: none;
+	border-top: solid 1px #F7DC5D;
+	border-bottom: solid 1px #F7DC5D;
+	border-radius: 0px;
+}
+
+hr {
+	margin: 0px 2px 0px 2px;
+	border-color: gray;
+	height: 1px;
+}

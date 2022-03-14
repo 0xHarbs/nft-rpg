@@ -1,0 +1,29 @@
+.fightercard{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.fightercard__container{
+	align-items: center;
+	justify-content: center;
+	margin: 20px 5px 10px 10px;
+	padding: 10px 25px 10px 25px;
+	border: none;
+	width: 90%;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #161616;
+	font-weight: bold;
+	background-color: #F7DC5D;
+}
+
+.fightercard__container > p {
+	font-size: 12px;
+}
+
+.fightercard__container > h3 {
+	font-size: 18px;
+	margin-bottom: 4px;
+}

@@ -1,0 +1,18 @@
+.statcard__container{
+	border: solid 1px #3E4859;
+	border-radius: 6px;
+	width: 220px;
+	margin: 0px 10px 10px 5px;
+	background-color: #212330;
+}
+
+.statcard__title {
+	padding: 24px 8px 24px 8px;
+	color: #fff;
+	text-align: center;
+}
+
+.statcard__statNum {
+	margin-top: 12px;
+	font-size: 40px;
+}

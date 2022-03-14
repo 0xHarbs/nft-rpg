@@ -1,0 +1,38 @@
+.dashboard__page {
+	display: flex;
+	background-color: #1A1A22;
+	justify-content: center;
+}
+
+.dash__main {
+	display: flex;
+	flex-wrap: wrap;
+	height: 1200px;
+	background-color: #1A1A22;
+}
+
+.createCharacter{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.createCharacter__container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 40px 40px;
+	height: 800px;
+	justify-content: center;
+	align-items: center;
+}
+
+.createCharacter__title {
+	margin: 40px 20px;
+	text-align: center;
+}
+
+.title__container > h1 {
+	color: #fff;
+	text-align: center;
+	padding-top: 20px;
+}

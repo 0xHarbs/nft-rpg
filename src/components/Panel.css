@@ -1,0 +1,22 @@
+.panel {
+	padding: 80px 0px 40px 0px;
+	text-align: center;
+	height: 800px;
+/*	background-color:  #1A1A22;*/
+	background-image: url(BGPanel.jpg);
+	background-size: cover;
+	color: #fff;
+}
+
+.contentCardInfo > h2 {
+	font-family: 'Belwe';
+	font-weight: bold;
+}
+
+.card__container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin: 60px 0px;
+}
